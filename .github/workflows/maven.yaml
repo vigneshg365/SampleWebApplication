@@ -34,7 +34,7 @@ jobs:
     - name: Set up SSH to remote 
       uses: appleboy/ssh-action@v0.1.10
       with:
-          host: ${{ secrets.HOSTNAME_2 }}
+          host: ${{ secrets.HOSTNAME }}
           port: ${{secrets.PORT}}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY_2 }}
